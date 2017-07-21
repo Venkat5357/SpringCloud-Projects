@@ -7,4 +7,10 @@ spring:
         git:
           uri: https://github.com/Venkat5357/cloud-configuration-repo
           search-paths: 'station*'
+          repos:
+               perf:
+               pattern: '*/perf'
+               uri: https://github.com/rseroter/pluralsight-spring-cloudconfig-wa-tolls-perf
+               search-paths: 'station*'
+
 
