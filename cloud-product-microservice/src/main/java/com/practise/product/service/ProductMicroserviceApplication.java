@@ -61,12 +61,18 @@ public class ProductMicroserviceApplication {
 
 
 
-	@GetMapping("/prodcutDetails")
+	@GetMapping("/prodcuts")
 	public String getProducts(){
 
 		int random = ThreadLocalRandom.current().nextInt(0,3);
 
 		return products[random];
+	}
+
+	@GetMapping("/hello")
+	public String sayHello(){
+
+		return "hello";
 	}
 
 
