@@ -19,8 +19,8 @@ public class ProductServiceHystricClient {
     }
 
 
-    public String default(){
+    public String getDefault(){
 
-        "noo";
+        return "noo";
     }
 }
